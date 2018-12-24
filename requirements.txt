@@ -1,0 +1,5 @@
+pytest
+pytest-regression
+pytest-benchmark
+pytest-timeout
+pytest-html
