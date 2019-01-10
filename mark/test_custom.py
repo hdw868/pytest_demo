@@ -1,11 +1,11 @@
-"""Try:
-test discovery:
+"""in mark directory, try:
 pytest -m "webtest" -v
 pytest -m "not webtest" -v
 pytest --lf -v
 pytest --ff -v
 pytest test_custom.py::TestClass::test_method -v
 pytest -k "http" -v
+pytest -k "http and not send" -v
 """
 
 import pytest
@@ -13,6 +13,11 @@ import pytest
 
 @pytest.mark.webtest
 def test_send_http():
+    pass  # perform some webtest test for your app
+
+
+@pytest.mark.webtest
+def test_check_http():
     pass  # perform some webtest test for your app
 
 
