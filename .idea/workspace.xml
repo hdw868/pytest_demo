@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b943054b-76af-4c7d-97d6-3b500c8e3f9d" name="Default Changelist" comment="mark fail and skip finished.">
-      <change afterPath="$PROJECT_DIR$/mark/test_buildin_skip.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mark/test_buildin_xfail.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="b943054b-76af-4c7d-97d6-3b500c8e3f9d" name="Default Changelist" comment="delete files under ./idea/workspace">
+      <change afterPath="$PROJECT_DIR$/fixture/conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixture/test_fixture_scope_using_conftest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixture/test_fixture_yield.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fixture/test_parametrize_fixture.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/pytest_demo.iml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mark/test_custom.py" beforeDir="false" afterPath="$PROJECT_DIR$/mark/test_custom.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,29 +32,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gitignore" value="2" />
-          <entry key="py" value="13" />
+          <entry key="py" value="22" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="3" />
-          <entry key="Python" value="13" />
+          <entry key="Python" value="22" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="6" />
-          <entry key="gitignore" value="11" />
-          <entry key="py" value="1548" />
-          <entry key="txt" value="53" />
+          <entry key="dummy" value="15" />
+          <entry key="gitignore" value="15" />
+          <entry key="py" value="2059" />
+          <entry key="txt" value="95" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Git file" value="2" />
-          <entry key="PLAIN_TEXT" value="68" />
-          <entry key="Python" value="1548" />
+          <entry key="Git file" value="6" />
+          <entry key="PLAIN_TEXT" value="119" />
+          <entry key="Python" value="2059" />
         </counts>
       </usages-collector>
     </session>
@@ -64,54 +64,10 @@
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/assert/test_assert_pytest.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
-                  <caret line="29" column="27" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
-                  <folding>
-                    <element signature="e#0#11#0" expanded="true" />
-                    <marker date="1547127929664" expanded="true" signature="447:484" ph="..." />
-                    <marker date="1547127929664" expanded="true" signature="829:830" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-762174762/__builtin__.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="77464">
-                  <caret line="3368" column="8" selection-start-line="3368" selection-start-column="8" selection-end-line="3368" selection-end-column="8" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/requirements.txt">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="92">
-                  <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/mark/test_custom.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="207">
-                  <caret line="9" selection-start-line="9" selection-end-line="9" />
-                  <folding>
-                    <marker date="1547162163061" expanded="true" signature="509:530" ph="..." />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/mark/test_buildin_xfail.py">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="145">
-                  <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+                  <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
                   <folding>
                     <element signature="e#0#10#0" expanded="true" />
                   </folding>
@@ -131,11 +87,52 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="46">
-                  <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+                <state relative-caret-position="92">
+                  <caret line="4" selection-start-line="4" selection-end-line="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fixture/test_parametrize_fixture.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fixture/test_fixture_scope_using_conftest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="506">
+                  <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fixture/conftest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/fixture/test_fixture_yield.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="488">
+                  <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+                  <folding>
+                    <marker date="1547166899907" expanded="true" signature="33:236" ph="..." />
+                    <marker date="1547166899907" expanded="true" signature="750:751" ph="..." />
+                    <marker date="1547166899907" expanded="true" signature="750:755" ph="..." />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -171,11 +168,43 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/.gitignore">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="69">
-                  <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fixture/conftest.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="299">
+                  <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fixture/test_fixture_yield.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="269">
+                  <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+                  <folding>
+                    <marker date="1547166899907" expanded="true" signature="33:236" ph="..." />
+                    <marker date="1547166899907" expanded="true" signature="750:751" ph="..." />
+                    <marker date="1547166899907" expanded="true" signature="750:755" ph="..." />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/fixture/test_parametrize_fixture.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="345">
+                  <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
                 </state>
               </provider>
             </entry>
@@ -199,6 +228,11 @@
         <option value="$PROJECT_DIR$/mark/test_buildin_skip.py" />
         <option value="$PROJECT_DIR$/mark/test_buildin_xfail.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/fixture/test_parametrize_fixture.py" />
+        <option value="$PROJECT_DIR$/fixture/test_fixture.py" />
+        <option value="$PROJECT_DIR$/fixture/conftest.py" />
+        <option value="$PROJECT_DIR$/fixture/test_fixture_scope_using_conftest.py" />
+        <option value="$PROJECT_DIR$/fixture/test_fixture_scope.py" />
       </list>
     </option>
   </component>
@@ -237,6 +271,17 @@
             <path>
               <item name="pytest_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="pytest_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest_demo" type="462c0819:PsiDirectoryNode" />
+              <item name="fixture" type="462c0819:PsiDirectoryNode" />
+              <item name=".pytest_cache" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="pytest_demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="pytest_demo" type="462c0819:PsiDirectoryNode" />
               <item name="mark" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -250,6 +295,9 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Dev\pytest_demo\fixture" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\Dev\pytest_demo\mark" />
       <recent name="E:\Dev\pytest_demo\assert" />
@@ -267,7 +315,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_assert_pytest.test_eq_list">
+  <component name="RunManager" selected="Python tests.pytest for test_parametrize_fixture.test_eval">
     <configuration name="pytest for test_assert_pytest.test_assert_with_additional_info" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pytest_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -328,35 +376,35 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_assert_pytest.test_info" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest for test_parametrize_fixture.test_eval" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="pytest_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assert" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/fixture" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_assert_pytest.test_info&quot;" />
+      <option name="_new_target" value="&quot;test_parametrize_fixture.test_eval&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest for test_assert_pytest.test_info" />
       <item itemvalue="Python tests.pytest for test_assert_pytest.test_assert_with_additional_info" />
       <item itemvalue="Python tests.pytest for test_assert_pytest.test_exceptions" />
       <item itemvalue="Python tests.pytest for test_assert_pytest.test_eq_long_text" />
       <item itemvalue="Python tests.pytest for test_assert_pytest.test_eq_list" />
+      <item itemvalue="Python tests.pytest for test_parametrize_fixture.test_eval" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest for test_parametrize_fixture.test_eval" />
         <item itemvalue="Python tests.pytest for test_assert_pytest.test_eq_list" />
         <item itemvalue="Python tests.pytest for test_assert_pytest.test_assert_with_additional_info" />
         <item itemvalue="Python tests.pytest for test_assert_pytest.test_eq_long_text" />
         <item itemvalue="Python tests.pytest for test_assert_pytest.test_exceptions" />
-        <item itemvalue="Python tests.pytest for test_assert_pytest.test_info" />
       </list>
     </recent_temporary>
   </component>
@@ -378,16 +426,24 @@
       <option name="project" value="LOCAL" />
       <updated>1547129934691</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="mark fail and skip finished.">
+      <created>1547164472440</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1547164472440</updated>
+    </task>
+    <task id="LOCAL-00003" summary="delete files under ./idea">
+      <created>1547164518725</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1547164518725</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="pytest_for_test_assert_pytest_test_eq_list - 2019.01.10 at 21h 37m 40s.xml">
-      <configuration name="pytest for test_assert_pytest.test_eq_list" configurationId="tests" />
-    </history-entry>
-    <history-entry file="pytest_for_test_assert_pytest_test_eq_list - 2019.01.10 at 21h 38m 43s.xml">
-      <configuration name="pytest for test_assert_pytest.test_eq_list" configurationId="tests" />
-    </history-entry>
     <history-entry file="pytest_for_test_assert_pytest_test_eq_list - 2019.01.10 at 21h 38m 52s.xml">
       <configuration name="pytest for test_assert_pytest.test_eq_list" configurationId="tests" />
     </history-entry>
@@ -412,6 +468,12 @@
     <history-entry file="pytest_for_test_assert_pytest_test_eq_list - 2019.01.10 at 21h 45m 34s.xml">
       <configuration name="pytest for test_assert_pytest.test_eq_list" configurationId="tests" />
     </history-entry>
+    <history-entry file="pytest_for_test_parametrize_fixture_test_eval - 2019.01.11 at 07h 58m 11s.xml">
+      <configuration name="pytest for test_parametrize_fixture.test_eval" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_for_test_parametrize_fixture_test_eval - 2019.01.11 at 07h 59m 48s.xml">
+      <configuration name="pytest for test_parametrize_fixture.test_eval" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -422,14 +484,14 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39187706" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4997367" weight="0.39187706" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32930845" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.35439706" visible="true" weight="0.35784853" />
-      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.64560294" side_tool="true" visible="true" weight="0.35784853" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.4713007" visible="true" weight="0.14050494" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.52869934" side_tool="true" weight="0.4665203" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.32930845" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -441,7 +503,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="finish assert and mark" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish assert and mark" />
+    <MESSAGE value="mark fail and skip finished." />
+    <MESSAGE value="delete files under ./idea" />
+    <MESSAGE value="delete files under ./idea/workspace" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete files under ./idea/workspace" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/plugins/test_regression.py">
@@ -461,7 +526,6 @@
       </provider>
     </entry>
     <entry file="file://C:/Python27/Lib/site-packages/pytest_benchmark/logger.py" />
-    <entry file="file://$PROJECT_DIR$/fixture/conftest.py" />
     <entry file="file://$PROJECT_DIR$/mark/test_skip.py" />
     <entry file="file://$PROJECT_DIR$/mark/test_bultin.py" />
     <entry file="file://$PROJECT_DIR$/fixture/test_scope.py" />
@@ -529,7 +593,7 @@
     <entry file="file://$PROJECT_DIR$/mark/test_buildin_xfail.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="145">
-          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
           <folding>
             <element signature="e#0#10#0" expanded="true" />
           </folding>
@@ -538,8 +602,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="46">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/test_fixture_scope.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/test_parametrize_fixture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="19" lean-forward="true" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/test_fixture_scope_using_conftest.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="506">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fixture/test_fixture_yield.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="41" lean-forward="true" selection-start-line="41" selection-end-line="41" />
+          <folding>
+            <marker date="1547166899907" expanded="true" signature="33:236" ph="..." />
+            <marker date="1547166899907" expanded="true" signature="750:751" ph="..." />
+            <marker date="1547166899907" expanded="true" signature="750:755" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
