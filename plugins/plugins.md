@@ -48,3 +48,9 @@ pytest  -v --tb=no -n auto
 
 ## pytest-bdd:
 
+Under **plugins** directory, run:
+
+```
+pytest -v
+```
+
