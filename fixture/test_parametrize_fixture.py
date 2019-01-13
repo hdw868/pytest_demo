@@ -1,17 +1,21 @@
 import pytest
 
 
-@pytest.mark.parametrize("test_input,expected", [
-    ("3+5", 8),
-    ("2+4", 6),
-    pytest.param("6*9", 42,
-                 marks=pytest.mark.xfail),
-])
-def test_eval(test_input, expected):
-    assert eval(test_input) == expected
+class Session(object):
+    def __init__(self, username, password):
+        self.username = username
+        self.password = password
+        self.data_dir = 'tmp/{}'.format(username)
 
 
-@pytest.mark.parametrize("x", [0, 1])
-@pytest.mark.parametrize("y", [2, 3])
-def test_foo(x, y):
-    pass
+@pytest.fixture(params=[('user1', 'pwd1'),
+                        ('user2', 'pwd2'),
+                        ('user3', 'pwd3'),
+                        ('user4', 'pwd4'),
+                        ])
+def session(request):
+    return Session(*request.param)
+
+
+def test_f1(session):
+    assert session.data_dir == '', 'for demo'

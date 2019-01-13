@@ -1,5 +1,5 @@
 pytest
-pytest-regression
-pytest-benchmark
-pytest-timeout
+pytest-regressions
 pytest-html
+pytest-bdd
+pytest-xdist
