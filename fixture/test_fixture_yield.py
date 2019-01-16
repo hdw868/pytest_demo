@@ -43,3 +43,8 @@ def test_pass(db):
 
 def test_fail(db):
     assert 0
+
+
+def test_exception(db):
+    a = 1 / 0
+    assert a

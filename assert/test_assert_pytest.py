@@ -1,5 +1,3 @@
-import copy
-
 import pytest
 
 
@@ -9,6 +7,7 @@ def test_assert_in():
     assert a in b
 
 
+# Assert Enhancement
 def test_eq_list():
     long_list = [0, 1, 2] * 100
     a = long_list + [0, 1, 2]

@@ -1,5 +1,5 @@
-pytest
+pytest>=4.1.0
 pytest-regressions
 pytest-html
-pytest-bdd
+pytest-bdd>=3.0.1
 pytest-xdist
