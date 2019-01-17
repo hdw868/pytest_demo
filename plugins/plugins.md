@@ -5,10 +5,20 @@
 Under **fixture** directory, run:
 
 ```
-pytest -v --html=report.html
+pytest -v --tb=no --html=report.html
 ```
 
-You will see it generates report.html in the root running directory.
+You will see it generates report.html in the running directory.
+
+## pytest-json:
+
+Under **fixture** directory, run:
+
+```
+pytest -v --tb=no --json=report.json
+```
+
+You will see it generates report.json in the running directory.
 
 
 
