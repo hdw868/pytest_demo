@@ -4,3 +4,5 @@ pytest-html
 pytest-bdd>=3.0.1
 pytest-xdist
 pytest-json
+pytest-random-order
+pandas
