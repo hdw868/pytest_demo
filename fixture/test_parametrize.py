@@ -15,7 +15,3 @@ class Session(object):
                         ])
 def session(request):
     return Session(*request.param)
-
-
-def test_f1(session):
-    assert session.data_dir == '', 'for demo'

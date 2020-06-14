@@ -1,8 +1,7 @@
-pytest>=4.1.0
+pytest
 pytest-regressions
 pytest-html
-pytest-bdd>=3.0.1
+pytest-bdd
 pytest-xdist
 pytest-json
 pytest-random-order
-pandas

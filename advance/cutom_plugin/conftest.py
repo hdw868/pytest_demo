@@ -9,7 +9,6 @@ def pytest_runtest_makereport(item, call):
 
     slacker_mark = item.get_closest_marker('slacker')
     if slacker_mark:
-        # we only look at actual failing test calls, not setup/teardown
         if rep.when == "call" and rep.failed:
             print('Post message at slack channel: {} and mention: {} about '
                   'this test case: {} failure successfully!'.format('GTA', slacker_mark.kwargs.get('mail'), item.name))

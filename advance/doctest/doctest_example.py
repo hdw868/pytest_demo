@@ -1,3 +1,5 @@
+# run with pytest --doctest-modules
+
 def something():
     """ a doctest in a docstring
     >>> something()
