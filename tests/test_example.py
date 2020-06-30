@@ -9,7 +9,6 @@ def db():
     raise TimeoutError
 
 
-@pytest.mark.repeat(3)
 def test_normal_cases_which_should_all_pass():
     assert 1
 
@@ -35,9 +34,10 @@ def test_long_run_case_that_we_want_to_skip():
     assert 0
 
 
+@pytest.mark.regression
 class TestLogin:
     def test_auth_pass(self):
         assert True
 
     def test_auth_fail(self):
-        assert True
+        assert False
